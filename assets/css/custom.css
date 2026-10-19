@@ -1,0 +1,85 @@
+/* Small readability and accessibility refinements to Academic Pages. */
+:root {
+  --global-link-color: #24677f;
+  --global-link-color-hover: #184658;
+  --global-link-color-visited: #4b627d;
+}
+
+html[data-theme="dark"] {
+  --global-link-color: #82c8df;
+  --global-link-color-hover: #b6e5f5;
+  --global-link-color-visited: #b9c9e5;
+}
+
+.page__content {
+  overflow-wrap: break-word;
+}
+
+.page__content h2,
+.page__content h3 {
+  scroll-margin-top: 6rem;
+}
+
+.page__content .btn {
+  margin: 0 .35em .5em 0;
+}
+
+.page__content figure {
+  margin: 1.5em 0;
+}
+
+.page__content figcaption {
+  margin-top: .6em;
+  font-size: .8em;
+  line-height: 1.5;
+}
+
+.page__content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+:focus-visible {
+  outline: 3px solid var(--global-link-color);
+  outline-offset: 4px;
+}
+
+.greedy-nav button:focus-visible {
+  outline: 3px solid var(--global-link-color);
+  outline-offset: 4px;
+}
+
+.theme-toggle-button {
+  position: static !important;
+  display: inline-block !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: .5rem 1rem !important;
+  background: transparent !important;
+  color: var(--global-masthead-link-color) !important;
+  border: 0;
+  cursor: pointer;
+}
+
+.skip-link {
+  position: fixed;
+  top: -10rem;
+  left: 1rem;
+  z-index: 100;
+  padding: .7em 1em;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+}
+
+.skip-link:focus {
+  top: .5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,105 @@
+locale: en-US
+site_theme: default
+title: "Arkanil Paul"
+title_separator: "–"
+name: "Arkanil Paul"
+description: "Computer architecture and systems research: cache and memory systems, interconnects, architectural simulation, and efficient machine learning."
+og_image: "og-image.png"
+url: "https://zandacrus.github.io"
+baseurl: ""
+repository: "Zandacrus/zandacrus.github.io"
+timezone: Asia/Kolkata
+
+author:
+  avatar: "arkanil-monogram.svg"
+  name: "Arkanil Paul"
+  bio: "Project Associate at IIT Bhubaneswar. Computer architecture, memory systems, and efficient compute."
+  location: "Bhubaneswar, India"
+  employer: "IIT Bhubaneswar"
+  email: "arkanil.paul.work@gmail.com"
+  github: "Zandacrus"
+  linkedin: "arkanil-paul-62493722a"
+
+social:
+  type: Person
+  name: "Arkanil Paul"
+  links:
+    - https://github.com/Zandacrus
+    - https://www.linkedin.com/in/arkanil-paul-62493722a/
+
+breadcrumbs: false
+words_per_minute: 180
+future: false
+read_more: disabled
+talkmap_link: false
+comments:
+  provider: false
+analytics:
+  provider: false
+atom_feed:
+  hide: true
+
+include:
+  - _pages
+  - files
+exclude:
+  - .bundle
+  - .github
+  - .sass-cache
+  - .jekyll-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
+  - node_modules
+  - tools
+  - package.json
+  - package-lock.json
+  - _site
+
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 2..3
+
+collections:
+  publications:
+    output: true
+  talks:
+    output: true
+  teaching:
+    output: true
+  portfolio:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      comments: false
+      share: false
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
