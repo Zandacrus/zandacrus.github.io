@@ -17,7 +17,7 @@ Live address after deployment: **https://zandacrus.github.io/**
 
 Content was prepared from `Arkanil_Paul_CV.pdf` and `detailed-experience-and-projects.md`, supplied by Arkanil Paul in October 2026. The map is from the supplied dissertation materials. Planned research, small-sample results, approximate estimates, and unfinished team work retain their qualifications. No publication, teaching, or blog placeholders are published.
 
-The sidebar currently uses an initials avatar. To add a photograph, place the image in `images/` and update `author.avatar` in `_config.yml`.
+The sidebar uses `images/website-profile-pic.jpg`. To change the photograph, replace that file or update `author.avatar` in `_config.yml`.
 
 ## Local development
 
