@@ -6,7 +6,7 @@ Live address after deployment: **https://zandacrus.github.io/**
 
 ## Content
 
-- `_pages/about.md`: introduction, research interests, selected work, and contact.
+- `_pages/about.md`: introduction, research interests, and contact.
 - `_pages/research.md`: five research experiences.
 - `_pages/landslide-mapping.md`: dissertation methods, results, map, and limitations.
 - `_pages/projects.md` and `_pages/project-*.md`: six projects and contribution details.

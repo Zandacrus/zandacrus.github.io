@@ -22,17 +22,6 @@ I completed my **Integrated M.Tech. in Geophysical Technology at IIT Roorkee in 
 - **Efficient compute:** CPU/GPU microarchitecture, ML/DL accelerators, and high-performance computing.
 - **Performance analysis:** workload characterization, profiling, and analysis of IPC, cache misses, latency, and bandwidth.
 
-## Selected work
-
-**Cache bandwidth management · IIT Delhi**  
-Implemented and evaluated LLC bandwidth-management policies in gem5 for a system with six CPU cores and four accelerators. [Read about this research →](/research/#cache-bandwidth-management)
-
-**Neural-network inference on an FPGA**  
-Independently built an MNIST classifier in SystemVerilog and verified it on a Basys 3 board. The design met 100 MHz timing constraints and classified 19 of 20 project test images correctly. [Explore the project →](/projects/ann-accelerator/)
-
-**AsyncTiny**  
-A C++11 asynchronous runtime for memory-constrained platforms, with coroutines, futures, tasks, timers, and cooperative scheduling. [Explore the project →](/projects/asynctiny/)
-
 ## Get in touch
 
 You can reach me at [arkanil.paul.work@gmail.com](mailto:arkanil.paul.work@gmail.com), find my code on [GitHub](https://github.com/Zandacrus), or connect on [LinkedIn](https://www.linkedin.com/in/arkanil-paul-62493722a/).
