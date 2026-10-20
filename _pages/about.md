@@ -13,7 +13,7 @@ I enjoy working across the hardware–software boundary: designing RTL in System
 
 I completed my **Integrated M.Tech. in Geophysical Technology at IIT Roorkee in June 2026**. My dissertation combined geospatial machine learning and geophysical analysis to study landslide susceptibility in the Garhwal Himalaya. Alongside my degree, research internships at IIT Delhi and IIT Bhubaneswar gave me experience in cache bandwidth management, asynchronous federated learning, and CPU/GPU workload profiling.
 
-[Research experience](/research/){: .btn .btn--primary} [Projects](/projects/){: .btn} [Download CV](/files/Arkanil_Paul_CV.pdf){: .btn}
+[Research experience](/research/){: .btn .btn--primary} [Projects](/projects/){: .btn} [CV](/files/Arkanil_Paul_CV.pdf){: .btn}
 
 ## Research interests
 
