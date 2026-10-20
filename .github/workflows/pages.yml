@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 6 1 * *'
 
 permissions:
   contents: read
@@ -23,10 +25,21 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate timezone and public holiday data
+        run: |
+          python3 -m pip install -r tools/requirements-calendar.txt
+          python3 tools/generate_profile_calendar.py
       - name: Build with Jekyll
         run: bundle exec jekyll build --strict_front_matter --trace
         env:
           JEKYLL_ENV: production
+      - name: Check profile photo scheduling
+        run: node tools/test-profile-photo.cjs
+        env:
+          TZ: Asia/Kolkata
       - name: Check internal links
         run: python3 tools/check_site.py
       - name: Upload site

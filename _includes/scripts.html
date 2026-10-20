@@ -1,5 +1,19 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if page.author_profile or layout.author_profile %}
+<script type="application/json" id="profile-photo-settings">
+{
+  "holiday_image": {{ site.data.profile_photos.holiday_image | relative_url | jsonify }},
+  "night_image": {{ site.data.profile_photos.night_image | relative_url | jsonify }},
+  "lunch_hours_image": {{ site.data.profile_photos.lunch_hours_image | relative_url | jsonify }},
+  "formal_image": {{ site.data.profile_photos.formal_image | relative_url | jsonify }},
+  "calendar_url": {{ "/assets/data/profile-calendar.json" | relative_url | jsonify }},
+  "lunch_hours": {{ site.data.profile_schedule.lunch_hours | jsonify }}
+}
+</script>
+<script defer src="{{ '/assets/js/profile-photo.js' | relative_url }}"></script>
+{% endif %}
+
 {% include analytics.html %}
 
 {% include comments-providers/scripts.html %}

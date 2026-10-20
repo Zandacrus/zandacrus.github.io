@@ -27,3 +27,6 @@ __pycache__/
 
 # Jekyll cache
 .jekyll-cache/
+
+# Optional local holiday-generator environment
+.calendar-venv/

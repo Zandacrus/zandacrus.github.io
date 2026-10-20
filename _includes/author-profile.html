@@ -8,12 +8,13 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-      <img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+      {% assign avatar_url = author.avatar %}
     {% elsif author.avatar contains '/' %}
-      <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high" />
+      {% assign avatar_url = author.avatar | relative_url %}
     {% else %}
-      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+      {% assign avatar_url = author.avatar | prepend: "/images/" | prepend: base_path %}
     {% endif %}
+    <img src="{{ avatar_url }}" class="author__avatar" alt="{{ author.name }}" fetchpriority="high"{% if author == site.author %} data-profile-photo{% endif %} />
   </div>
 
   <div class="author__content">

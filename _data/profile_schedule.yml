@@ -1,0 +1,63 @@
+# All hours use the visitor's local clock. End times are exclusive.
+lunch_hours:
+  default:
+    start: "12:00"
+    end: "15:00"
+  # Approximate display windows chosen for this site, not official national
+  # schedules or predictions of an individual's lunch break. ISO country codes.
+  # All overrides must fall between 06:00 and 18:00.
+  countries:
+    # Americas (10)
+    US: {name: United States, start: "11:30", end: "14:00"}
+    CA: {name: Canada, start: "12:00", end: "14:00"}
+    MX: {name: Mexico, start: "13:00", end: "16:00"}
+    BR: {name: Brazil, start: "12:00", end: "14:00"}
+    AR: {name: Argentina, start: "12:30", end: "15:00"}
+    CL: {name: Chile, start: "13:00", end: "15:00"}
+    CO: {name: Colombia, start: "12:00", end: "14:00"}
+    PE: {name: Peru, start: "12:30", end: "15:00"}
+    EC: {name: Ecuador, start: "12:00", end: "14:00"}
+    UY: {name: Uruguay, start: "12:00", end: "15:00"}
+    # Europe (19)
+    GB: {name: United Kingdom, start: "12:00", end: "14:00"}
+    IE: {name: Ireland, start: "12:00", end: "14:00"}
+    FR: {name: France, start: "12:00", end: "14:00"}
+    DE: {name: Germany, start: "12:00", end: "14:00"}
+    NL: {name: Netherlands, start: "12:00", end: "13:30"}
+    BE: {name: Belgium, start: "12:00", end: "14:00"}
+    CH: {name: Switzerland, start: "12:00", end: "14:00"}
+    AT: {name: Austria, start: "12:00", end: "14:00"}
+    ES: {name: Spain, start: "13:00", end: "16:00"}
+    PT: {name: Portugal, start: "12:00", end: "14:30"}
+    IT: {name: Italy, start: "12:30", end: "14:30"}
+    GR: {name: Greece, start: "13:00", end: "15:00"}
+    SE: {name: Sweden, start: "11:00", end: "14:00"}
+    "NO": {name: Norway, start: "11:00", end: "13:00"}
+    DK: {name: Denmark, start: "11:30", end: "13:30"}
+    FI: {name: Finland, start: "11:00", end: "13:00"}
+    PL: {name: Poland, start: "13:00", end: "15:00"}
+    RU: {name: Russia, start: "13:00", end: "15:00"}
+    CZ: {name: Czechia, start: "11:00", end: "14:00"}
+    # Asia, including West Asia (19)
+    IN: {name: India, start: "12:30", end: "14:30"}
+    CN: {name: China, start: "12:00", end: "14:00"}
+    JP: {name: Japan, start: "11:30", end: "13:30"}
+    KR: {name: South Korea, start: "12:00", end: "13:30"}
+    SG: {name: Singapore, start: "12:00", end: "14:00"}
+    MY: {name: Malaysia, start: "12:00", end: "14:00"}
+    ID: {name: Indonesia, start: "12:00", end: "14:00"}
+    TH: {name: Thailand, start: "11:30", end: "14:00"}
+    VN: {name: Vietnam, start: "11:00", end: "13:00"}
+    PH: {name: Philippines, start: "12:00", end: "14:00"}
+    BD: {name: Bangladesh, start: "13:00", end: "15:00"}
+    PK: {name: Pakistan, start: "13:00", end: "15:00"}
+    LK: {name: Sri Lanka, start: "12:00", end: "14:00"}
+    NP: {name: Nepal, start: "12:00", end: "14:00"}
+    AE: {name: United Arab Emirates, start: "13:00", end: "15:00"}
+    SA: {name: Saudi Arabia, start: "13:00", end: "15:00"}
+    TR: {name: Türkiye, start: "12:00", end: "14:00"}
+    IL: {name: Israel, start: "12:00", end: "14:00"}
+    KZ: {name: Kazakhstan, start: "13:00", end: "15:00"}
+    # Oceania (2)
+    AU: {name: Australia, start: "12:00", end: "14:00"}
+    NZ: {name: New Zealand, start: "12:00", end: "14:00"}
