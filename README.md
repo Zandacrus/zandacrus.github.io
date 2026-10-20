@@ -17,7 +17,14 @@ Live address after deployment: **https://zandacrus.github.io/**
 
 Content was prepared from `Arkanil_Paul_CV.pdf` and `detailed-experience-and-projects.md`, supplied by Arkanil Paul in October 2026. The map is from the supplied dissertation materials. Planned research, small-sample results, approximate estimates, and unfinished team work retain their qualifications. No publication, teaching, or blog placeholders are published.
 
-The sidebar uses `images/website-profile-pic.jpg`. To change the photograph, replace that file or update `author.avatar` in `_config.yml`.
+The sidebar currently uses `/files/profile_pics/yellow-jacket-sunglasses.jpg`. Profile photographs are stored in `files/profile_pics/` with matching filenames in the local source project's `profile_pics/` folder:
+
+- `yellow-jacket-sunglasses.jpg`: yellow jacket and sunglasses, seated outdoors.
+- `yellow-jacket-snow-selfie.jpg`: yellow hood and scarf, snowy background.
+- `black-suit-outdoors.jpg`: black suit and glasses, standing outdoors.
+- `suit-red-tie-headshot.jpg`: formal portrait with a red tie and white background.
+
+To change the default photograph, update `author.avatar` in `_config.yml`. No index or gallery is published for `/files/profile_pics/`; GitHub Pages serves its 404 page for the folder URL. Individual image URLs remain public because browsers need them to render the photographs. Visitor-local time selection can be added after the desired schedule is specified.
 
 ## Local development
 

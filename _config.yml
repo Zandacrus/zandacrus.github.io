@@ -11,7 +11,7 @@ repository: "Zandacrus/zandacrus.github.io"
 timezone: Asia/Kolkata
 
 author:
-  avatar: "website-profile-pic.jpg"
+  avatar: "/files/profile_pics/yellow-jacket-sunglasses.jpg"
   name: "Arkanil Paul"
   bio: "Project Associate at IIT Bhubaneswar. Computer architecture, memory systems, and efficient compute."
   location: "Bhubaneswar, India"
