@@ -7,7 +7,7 @@ redirect_from:
   - /resume/
 ---
 
-[Download CV (PDF)](/files/Arkanil_Paul_CV.pdf){: .btn .btn--primary}
+[CV](/files/Arkanil_Paul_CV.pdf){: .btn .btn--primary}
 
 ## Education
 

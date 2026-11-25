@@ -16,4 +16,4 @@ author_profile: true
 - [Cache simulator](/projects/cache-simulator/)
 - [Pipelined processor](/projects/pipelined-processor/)
 - [Curriculum vitae](/cv/)
-- [Download CV (PDF)](/files/Arkanil_Paul_CV.pdf)
+- [CV](/files/Arkanil_Paul_CV.pdf)
