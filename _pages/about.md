@@ -9,7 +9,7 @@ redirect_from:
 
 I am a **Project Associate at IIT Bhubaneswar**, working with Dr. Debiprasanna Sahoo on computer architecture and simulation. My interests center on **cache and memory systems, on-chip interconnects, CPU/GPU microarchitecture, and architectures for machine learning**.
 
-I enjoy working across the hardware–software boundary: designing RTL in SystemVerilog, building and modifying architectural simulators, and developing systems software in modern C++. My current work characterizes NPUs in a 3D-stacked, chiplet-based SoC, built by integrating a 3D network-on-chip into the ONNXim simulator, to study memory access patterns, interconnect contention, and scheduling. I am also beginning an investigation of cache policies and memory behavior in NVIDIA Blackwell RTX 5000/6000 Pro GPUs.
+I enjoy working across the hardware–software boundary: designing RTL in SystemVerilog, building and modifying architectural simulators, and developing systems software in modern C++. My current work characterizes NPUs in a 3D-stacked, chiplet-based SoC, built by integrating a 3D network-on-chip into the ONNXim simulator, to study memory access patterns, interconnect contention, and scheduling.
 
 I completed my **Integrated M.Tech. in Geophysical Technology at IIT Roorkee in June 2026**. My dissertation combined geospatial machine learning and geophysical analysis to study landslide susceptibility in the Garhwal Himalaya. Alongside my degree, research internships at IIT Delhi and IIT Bhubaneswar gave me experience in cache bandwidth management, asynchronous federated learning, and CPU/GPU workload profiling.
 
