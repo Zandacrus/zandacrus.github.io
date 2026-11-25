@@ -13,11 +13,11 @@ My research spans architectural simulation, cache and memory systems, workload a
 School of Electrical and Computer Sciences · August 2026–present  
 Supervisor: Dr. Debiprasanna Sahoo
 
-I am studying how to separate interconnect implementations from the rest of ONNXim, with the aim of making BookSim and the team's 3D-NoC simulator interchangeable through reusable interfaces. This work is intended to support accelerator and interconnect studies, with chiplet systems as a future direction.
+I am characterizing NPUs to study memory-access patterns, interconnect contention, and scheduling behavior in a 3D-stacked, chiplet-based SoC. The SoC is modeled by integrating a 3D NoC interconnect into the ONNXim simulator.
 
-I am also beginning an empirical investigation of NVIDIA Blackwell RTX 5000/6000 Pro GPUs, focusing on cache policies and memory-hierarchy behavior. Both directions are ongoing; completed integration results and GPU measurements are not yet available.
+I am also beginning an empirical investigation of NVIDIA Blackwell RTX 5000/6000 Pro GPUs, focusing on cache policies and memory-hierarchy behavior. Both directions are ongoing; completed characterization results and GPU measurements are not yet available.
 
-*Tools and areas: ONNXim, BookSim, 3D-NoC, accelerator simulation, interconnects, GPU microarchitecture.*
+*Tools and areas: ONNXim, 3D NoC, NPU characterization, chiplet-based SoC, interconnects, GPU microarchitecture.*
 
 ## Geospatial machine learning and landslide analysis
 
