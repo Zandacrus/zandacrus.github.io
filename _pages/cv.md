@@ -45,7 +45,7 @@ Supervisor: Prof. Pallavi Chattopadhyay
 
 ## Technical skills
 
-**Programming:** C, modern C++, C#, Python, SQL, Verilog/SystemVerilog.  
+**Programming:** C, modern C++, Python, Verilog/SystemVerilog, SQL, C#.  
 **Libraries:** C++ STL, Boost, LibTorch, XGBoost, Optuna, and scientific Python libraries.  
 **Architecture and profiling:** gem5, ONNXim, GPGPU-Sim, ChampSim, AMD uProf, Intel Pin.  
 **Hardware:** Xilinx Vivado, Basys 3 FPGA, Arduino, ESP32.  
@@ -53,7 +53,7 @@ Supervisor: Prof. Pallavi Chattopadhyay
 
 ## Achievements
 
-- **Global rank 1005 / 33,953** — ICPC 2026 Online Challenge 1 powered by Huawei, August 2026.
+- **Global rank 1005 / 33,953** — [ICPC 2026 Online Challenge 1 powered by Huawei](https://github.com/Zandacrus/edge-cloud-llm-scheduler), August 2026. Designed a scheduler for split edge-cloud LLM inference, traced pipeline stalls across heterogeneous compute and a shared interconnect, and built a runtime policy balancing throughput and latency across nodes.
 - **Global rank 30 / 18,557** — CodeChef May Long One 2022, Division 3.
 - **Global rank 26 / 19,211** — CodeChef April Long Two 2022, Division 3.
 - **All India rank 7481 / 141,699** — JEE Advanced, 2021.
